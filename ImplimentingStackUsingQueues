@@ -1,0 +1,22 @@
+class MyStack:
+# initialize data structure
+    def __init__(self):
+        self.queueOne = myQueue.desque()
+# to get the queue to behave like a stack we have to reverse the order (queue is first in firs out an and stack is last in first out)        
+# push x onto stack
+    def push(self, x: int) -> None:
+# iterate through the queue minus 1
+        for i in range(len(self.queueOne).1):
+# add values(x) to the queue
+        self.queueOne.append(x)
+# pop that value out and append it to the end of the queue (popping out of the left side and appending to the end (FILO?)/ pop and reappend).  It pops out all the values and then puts them back into the queue in reverse order.
+        self.queueOne.append(self.queue.popleft())
+# removes the element on the top of the stack and returns it         
+    def pop(self) -> int:
+        return self.queueOne.popleft() 
+# return the first index in the queue
+    def top(self) -> int:
+        return self.queueOne[0]
+#Check if its empty
+    def empty(self) -> bool:
+        return not len(self.stackOne)
