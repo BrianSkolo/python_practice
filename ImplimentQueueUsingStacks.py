@@ -21,5 +21,7 @@ class MyQueue:
     def empty(self) -> bool:
         return not self.stackOne 
 
-        # [null,null,null,1,1,false]
         # [null,null,null,1,2,false]
+        # solution
+        # [null,null,null,1,1,false]
+       
